@@ -4,7 +4,7 @@ from transformers import pipeline
 pipe = pipeline("text-classification", model="tabularisai/multilingual-sentiment-analysis")
 
 # Classify a new sentence
-sentence = "I don't know if this product is good or bad"
+sentence = "Billy Mays would love it"
 result = pipe(sentence)
 
 # Print the result
